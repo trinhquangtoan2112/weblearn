@@ -7,7 +7,7 @@ namespace weblearn.Data
     public class TestCDbContext :DbContext
     {
 
-        public TestCDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
+        public TestCDbContext(DbContextOptions<TestCDbContext> dbContextOptions) : base(dbContextOptions)
         {
 
         }
